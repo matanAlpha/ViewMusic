@@ -54,14 +54,22 @@
 		84225D2E1E63E1140078EC45 /* ViewMusic */ = {
 			isa = PBXGroup;
 			children = (
-				84225D2F1E63E1140078EC45 /* AppDelegate.swift */,
+				84A8E09C1E668E0C0065AC20 /* Supporting files */,
 				84225D311E63E1140078EC45 /* ViewController.swift */,
 				84225D331E63E1140078EC45 /* Main.storyboard */,
+			);
+			path = ViewMusic;
+			sourceTree = "<group>";
+		};
+		84A8E09C1E668E0C0065AC20 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				84225D2F1E63E1140078EC45 /* AppDelegate.swift */,
 				84225D361E63E1140078EC45 /* Assets.xcassets */,
 				84225D381E63E1140078EC45 /* LaunchScreen.storyboard */,
 				84225D3B1E63E1140078EC45 /* Info.plist */,
 			);
-			path = ViewMusic;
+			name = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					84225D2B1E63E1140078EC45 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 75AN772JUN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,9 +269,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75AN772JUN;
 				INFOPLIST_FILE = ViewMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = il.co.elcam.ViewMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = il.co.kimaia.MusicView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +283,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75AN772JUN;
 				INFOPLIST_FILE = ViewMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = il.co.elcam.ViewMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = il.co.kimaia.MusicView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +312,7 @@
 				84225D401E63E1140078EC45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
